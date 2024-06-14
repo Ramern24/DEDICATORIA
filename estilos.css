@@ -1,0 +1,73 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+}
+
+.profile {
+    float: left;
+    margin-right: 20px;
+    margin-top: -50px;
+    max-width: 100px; /* Ajusta el tamaño de la imagen según lo necesites */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+}
+.profile1 {
+    float: left;
+    margin-left: 230px;
+    margin-top: -250px;
+    max-width: 320px; /* Ajusta el tamaño de la imagen según lo necesites */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 524px) {
+    .container {
+        padding: 10px;
+    }
+    .profile1 {
+        float: none;
+        margin-right: 110;
+        margin-bottom: 110px;
+        max-width: 35%;
+    }
+    .h1{
+        padding: 12px;
+    }
+}
+@media screen and (max-width:606px ){
+    .container{
+        padding: 10px;
+    }
+    .profile{
+        padding: 4px;
+    }
+    .profile1{
+        float: none;
+        margin-left: 240px;
+        margin-bottom: 100px;
+        max-width: 40%;
+    }
+    .h1{
+        max-width: 12px;
+    }
+}
